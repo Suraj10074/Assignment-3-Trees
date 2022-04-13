@@ -1,6 +1,6 @@
 ### Assignment-3-Trees
 ``` Javascript 
-//que-1 Implement Binary tree===============================================
+//Ques-1 Implement Binary tree
 
 class BinaryTreeNode {
   constructor(key, value = key, parent = null) {
@@ -21,7 +21,7 @@ class BinaryTreeNode {
 }
 
 
-// que - 2 Find height of a given tree=============================================
+// Ques - 2 Find height of a given tree
 
 class Node
 {
@@ -65,7 +65,8 @@ class Node
 
 		document.write("Height of tree is : " +maxDepth(root));
 
-// que - 3 perform Pre-order, Post-order, In-order traversal====================
+// Ques - 3 perform Pre-order, Post-order, In-order traversal
+
 class BinaryTree {
   constructor(key, value = key) {
     this.root = new BinaryTreeNode(key, value);
@@ -90,11 +91,8 @@ class BinaryTree {
   }
 
 
-
-
-
   
-  // Que - 4 Function to print all the leaves in a given binary tree===================
+  // Ques - 4 Function to print all the leaves in a given binary tree
   
 class Nodeone{
     constructor()
@@ -154,13 +152,7 @@ root.right.right.right = newNode(10);
 printLeafNodes(root);
 
 
-
-
-
-
-
-
-//Que - 5 Implement BFS (Breath First Search) and DFS (Depth First Search)=======================
+//Ques - 5 Implement BFS (Breath First Search) and DFS (Depth First Search)
 
 class BinarySearchTree {
   
@@ -269,12 +261,7 @@ class BreadthFirstTraverser extends BinarySearchTree {
 }
 
 
-
-
-
-
-
-//Que - 6 Find sum of all left leaves in a given Binary Tree ===============================
+//Ques - 6 Find sum of all left leaves in a given Binary Tree
 
 class Node
 {
@@ -337,13 +324,7 @@ root.right.right.left = new Node(50);
 
 document.write("The sum of leaves is " +leftLeavesSum(root));
 
-
-
-
-
-
-
-// Que - 7 Find sum of all nodes of the given perfect binary tree===============================
+// Ques - 7 Find sum of all nodes of the given perfect binary tree
 
 function sumNodes(l)
 {
@@ -407,12 +388,7 @@ let l = 3;
 document.write(sumNodes(l));
 
 
-
-
-
-
-
-//Que - 8 Count subtress that sum up to a given value x in a binary tree=================================
+//Ques - 8 Count subtress that sum up to a given value x in a binary tree
 
 class Node {
     constructor(data) {
@@ -535,8 +511,7 @@ let X = 29;
 
 document.write(countSubtreesWithSumXUtil(root, X));
 
-
-//Que - 9 Find maximum level sum in Binary Tree=====================================================
+//Ques - 9 Find maximum level sum in Binary Tree
 
 class Node
     {
@@ -613,7 +588,7 @@ root.right.right.right = new Node(7);
 
 document.write("Maximum level sum is " + maxLevelSum(root));
 
-//Que - 10 Print the nodes at odd levels of a tree=========================================
+//Ques - 10 Print the nodes at odd levels of a tree
 
 class Node
 {
@@ -652,4 +627,4 @@ root.left = newNode(2);
 root.right = newNode(3);
 root.left.left = newNode(4);
 root.left.right = newNode(5);
-printOddNodes(root, true); ```
+printOddNodes(root, true);
