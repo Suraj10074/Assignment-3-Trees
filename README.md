@@ -1,5 +1,5 @@
 ### Assignment-3-Trees
---- Javascript 
+``` Javascript 
 //que-1 Implement Binary tree===============================================
 
 class BinaryTreeNode {
@@ -652,4 +652,4 @@ root.left = newNode(2);
 root.right = newNode(3);
 root.left.left = newNode(4);
 root.left.right = newNode(5);
-printOddNodes(root, true); ---
+printOddNodes(root, true); ```
